@@ -1,0 +1,351 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(54, 53, 53);
+    position: relative;
+    top: -2rem;
+}
+.home-page {
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+    margin: 0;
+    position: relative;
+    background-position: top;
+    padding-top: 2rem;  
+} 
+
+header {
+    margin: 2rem 15vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h1 {
+    color: white;
+}
+.infinite-solutions{
+    color: rgb(30, 141, 141);
+    font-size: 3rem;
+}
+nav ul li {
+    display: inline-block;
+    margin-left: .7rem;
+    padding: .5rem;
+    border-radius: .5rem;
+}
+nav ul li:hover {
+    background-color: #39b8eb;
+}
+.nav-link {
+    text-decoration: none;
+    color: rgb(15, 15, 15);
+    font-size: 1rem;
+}
+.menu {
+    color: rgb(15, 15, 15);
+    display: none;
+}
+.profile {
+    margin: 0 15vw;
+    display: flex;
+    height: 89vh;
+    align-items: center; 
+}
+
+.profile-picture {
+   width: 20vw;
+   height: 78vh; 
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   padding-right: 1rem;
+}
+.profile-picture img {
+    width: 15vw;
+    height: 15vw;
+    border-radius: 100%;
+}
+.mary{
+    color: rgb(30, 141, 141);
+    font-size: 3rem;
+}
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1rem;
+}
+.profile-info p {
+    color: rgb(15, 15, 15);
+    font-size: 2.2rem;
+    margin: 0;
+}
+.profile-info h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+.profile-info span {
+    margin-right: .3rem;
+}
+.achievements, .skills { 
+    background-color: rgb(90, 89, 89);
+    padding-bottom: 1rem;
+}
+.achievement-content, .achievements .title, .skill-content, .skills .title  {
+    display: flex;
+    padding: 1rem 15vw;
+    margin: 0;
+}
+.achievement-photo, .skill-photo{
+    order: 2;
+    width: 20vw;
+}
+.achievement-photo i, .skill-photo i {
+    width: 20vw;
+    text-shadow: 1.5rem 1rem 1rem rgba(0, 0, 0, 0.5);
+    font-size: 10rem;
+}
+.achievement-info, .skill-info{
+    color: white;
+    margin-right: 2vw;
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+}
+.achievements .title, .skills .title {
+    font-size: 2rem;
+}
+
+.awards, .projects { 
+    background-color: rgb(25, 109, 103);
+    padding-bottom: 1rem;
+}
+.award-content, .awards .title, .project-content, .projects .title {
+    display: flex;
+    padding: 1rem 15vw;
+    margin: 0;
+}
+.award-photo, .project-photo{
+    order: 0;
+    width: 20vw;
+}
+.award-photo i, .project-photo i {
+    width: 20vw;
+    text-shadow: -1.5rem 1rem 1rem rgba(0, 0, 0, 0.5);
+    font-size: 10rem;
+}
+.award-info, .project-info{
+    color: white;
+    margin-left: 2vw;
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+}
+.awards .title, .projects .title {
+    font-size: 2rem;
+    margin-left: 22vw;
+}
+
+.contact {
+    display: flex;
+    background-color: rgb(90, 89, 89);
+}
+.contact-text {
+    margin: 1rem 1rem 1rem 20vw;
+    padding-left: 5rem;
+}
+
+.contact-me {
+    font-size: 2.5rem;
+}
+.phone {
+    color: white;
+    margin-top: 1rem;
+}
+.email {
+    margin-top: 1rem;
+    color: white;
+}
+.social-links {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.3rem;
+}
+.facebook {
+    color: #4267B2;
+}
+.linkedin {
+    color: #4267B2;
+}
+.whatsapp {
+    color:  #25D366;
+}
+.instagram {
+    background: -webkit-linear-gradient(rgb(188, 12, 241), rgb(212, 4, 4));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.twitter {
+    color: #00acee;
+}
+.github {
+    color: #171515;
+}
+.contact-form form{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    margin-left: 4rem;
+    margin-top: 1rem;
+}
+input, textarea {
+    background-color: rgb(54, 53, 53);
+    border: 0;
+}
+input, textarea {
+    margin-bottom: .5rem;
+    padding-left: 1rem;
+    color: white;
+}
+input{
+    height: 2rem;
+}
+input::placeholder, textarea::placeholder {
+    color: white;
+}
+.send {
+    width: 6rem;
+    padding: 0;
+    text-align: center;
+    color: white;
+    background-color: rgb(53, 196, 53);
+    font-weight: bold;
+}
+.send:hover{
+    cursor: pointer;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 15vw;
+    margin-bottom: 0;
+    color: white;
+}
+.up {
+    color: white;
+    background-color: rgb(90, 89, 89);
+    padding: .5rem;
+    border-radius: .4rem;
+}
+
+@media screen and (max-width:32.5rem) {
+    .nav-link {
+        display: none;
+    }
+    .menu {
+        display: block;
+    }
+    header {
+        margin: 2rem 6vw;   
+    }
+    nav {
+        text-align: right;
+    }
+    .profile {
+        margin: 0rem 6vw;
+        height: 30vh;
+    }
+    .profile-picture {
+        height: 30vh;
+    }
+
+    .achievement-content, .skill-content {
+        flex-direction: column;
+        padding: 1rem 6vw;
+    }
+    .achievement-photo, .skill-photo {
+        display: flex;
+        order: 0;
+        justify-content: center;
+        width: 60vw;
+    }
+    .achievements .title, .skills .title {
+        justify-content: center;
+    }
+
+    .award-content, .project-content {
+        flex-direction: column;
+        padding: 1rem 6vw;
+    }
+    .award-photo, .project-photo {
+        display: flex;
+        order: 0;
+        justify-content: center;
+        width: 60vw;
+        margin: 0;
+    }
+    .awards .title, .projects .title {
+        margin: 0;
+        justify-content: center;
+        text-align: center;
+    }
+    .contact {
+        flex-direction: column;
+    }
+    .contact-form {
+        order: -1;
+    }
+    .contact-form form {
+        margin: 6vw;
+        width: 88vw;
+    }
+    .contact-text {
+        margin: 6vw;
+    }
+    .social-links {
+        position: relative;
+        left: -3rem;
+    }
+    form {
+        margin: 0;
+    }
+    
+}
+
+@media screen and (min-width:32.5rem) and (max-width:61.1875rem) {
+    .nav-link {
+        display: none;
+    }
+    .menu {
+        display: block;
+    }
+    .profile {
+        margin: 0rem 6vw;
+        height: 30vh;
+    }
+    .profile-picture {
+        height: 30vh;
+    }
+    .award-photo, .project-photo {
+        margin-right: 5rem;
+    }
+    .contact-text {
+        margin: 6rem;
+        padding: 0;
+    }
+    .contact-me {
+        font-size: 2rem;
+    }
+    .phone, .email {
+        font-size: 0.8rem;
+    }
+    
+}
